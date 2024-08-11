@@ -22,8 +22,6 @@ class MateriController extends Controller
 
     public function store(Request $request, Kursus $kursus)
     {
-        // $kursus->materi()->create($request->all());
-        // return redirect()->route('materi.index', $kursus);
         $validated = $request->validate([
             'judul' => 'required|string|max:255',
             'deskripsi' => 'nullable|string',
