@@ -1,66 +1,130 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Online Course Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Deskripsi
 
-## About Laravel
+Online Course Management System adalah aplikasi berbasis web yang dikembangkan menggunakan Laravel. Aplikasi ini memungkinkan pengguna untuk mengelola kursus dan materi dengan fitur CRUD (Create, Read, Update, Delete). Pengguna dapat menambahkan, mengedit, dan menghapus kursus serta materi, serta melihat daftar kursus dan materi yang tersedia.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Fitur
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Kursus**: 
+  - Menambah kursus baru
+  - Melihat daftar kursus
+  - Mengedit informasi kursus
+  - Menghapus kursus
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Materi**:
+  - Menambahkan materi ke dalam kursus
+  - Melihat daftar materi dalam kursus
+  - Mengedit informasi materi
+  - Menghapus materi
 
-## Learning Laravel
+- **Autentikasi**:
+  - Login
+  - Register
+  - Pengaturan profil
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Gambar Tampilan
+### Halaman Login
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![Login Dashboard](https://github.com/user-attachments/assets/612f9042-bcd0-489e-9646-6366d86885ad)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Halaman Register
 
-## Laravel Sponsors
+![Register Dashboard](https://github.com/user-attachments/assets/0a7cdeac-1cb5-4376-9696-1531b34e6f90)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Halaman Dashboard dan Daftar Kursus
 
-### Premium Partners
+![Daftar Kursus](https://github.com/user-attachments/assets/807c96d8-b0d5-4500-a479-f36fddc7e39b)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Halaman Tambah Kursus
 
-## Contributing
+![Tambah Kursus](https://github.com/user-attachments/assets/4a085214-95ed-4203-81f0-f7ba17ec2751)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Halaman Edit Kursus
 
-## Code of Conduct
+![Edit Kursus](https://github.com/user-attachments/assets/62e981a5-6281-4374-a847-a768ec6b6c51)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Alert Hapus Kursus
 
-## Security Vulnerabilities
+![Hapus Kursus](https://github.com/user-attachments/assets/d558b28f-2b02-4850-a243-0e76f9fd3172)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Halaman Materi
 
-## License
+![Daftar Materi](https://github.com/user-attachments/assets/47ad8ec1-f9f9-4c31-be3f-c95ff7d59533)
+
+### Halaman Tambah Materi
+
+![Tambah Materi](https://github.com/user-attachments/assets/92c552ff-448b-436c-82fe-7811633c100e)
+
+### Halaman Edit Materi
+
+![Edit Materi](https://github.com/user-attachments/assets/e348be6f-02a5-4564-b4ce-72448a32d60d)
+
+### Alert Hapus Materi
+
+![Hapus Materi](https://github.com/user-attachments/assets/36a4e832-8bd3-4ba8-bb34-c46860bf2da7)
+
+### Halaman Profile
+
+![Profile](https://github.com/user-attachments/assets/0a156531-83ed-4528-af2e-3a90aaac8a1b)
+![Profile 2](https://github.com/user-attachments/assets/5ffe695b-6783-4bfe-b3de-b02a9237e51c)
+
+
+## Prerequisites
+
+Sebelum menjalankan aplikasi ini, pastikan bahwa Anda memiliki:
+
+- PHP >= 8.0
+- Composer
+- Laravel >= 9.0
+- MySQL atau database lain yang didukung
+
+## Instalasi
+
+1. **Clone Repository**:
+    ```bash
+    git clone https://github.com/username/repository.git
+    ```
+   
+2. **Masuk ke Direktori Proyek**:
+    ```bash
+    cd repository
+    ```
+
+3. **Instal Dependensi**:
+    ```bash
+    composer install
+    ```
+
+4. **Konfigurasi Environment**:
+    Salin file `.env.example` ke `.env` dan sesuaikan konfigurasi database dan lainnya:
+    ```bash
+    cp .env.example .env
+    ```
+
+5. **Generate Key**:
+    ```bash
+    php artisan key:generate
+    ```
+
+6. **Migrasi Database**:
+    ```bash
+    php artisan migrate
+    ```
+
+7. **Jalankan Aplikasi**:
+    ```bash
+    php artisan serve
+    ```
+    Akses aplikasi melalui `http://localhost:8000`.
+
+## Penggunaan
+
+1. **Login**: Akses halaman login bisa melalui `/login` atau `localhost:8000`.
+2. **Dashboard**: Setelah login, akses dashboard di `/dashboard` untuk melihat dan mengelola kursus.
+3. **Tambah Kursus**: Klik tombol "Tambah Kursus" untuk menambahkan kursus baru.
+4. **Kelola Materi**: Pilih kursus dan klik "Lihat Materi" untuk mengelola materi dalam kursus tersebut.
+
+## Lisensi
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
